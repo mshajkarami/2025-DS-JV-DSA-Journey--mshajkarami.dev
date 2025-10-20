@@ -32,7 +32,7 @@ Its primary goal is to _[concise description of what it does or solves]_.
 | ------------------- | --------------------------------- | --------------- |
 | `2025`              | Project creation year             | 2025            |
 | `FS`                | Scope (Full Stack, Android, etc.) | FS              |
-| `KT`                | Main Tech (Kotlin, Java, etc.)    | KT              |
+| `KT`                | dev.mshajkarami.ds.jv.dsajourney.Main Tech (Kotlin, Java, etc.)    | KT              |
 | `SimBox`            | Project Name                      | SimBox          |
 | `--mshajkarami.dev` | Personal Brand Domain             | mshajkarami.dev |
 
