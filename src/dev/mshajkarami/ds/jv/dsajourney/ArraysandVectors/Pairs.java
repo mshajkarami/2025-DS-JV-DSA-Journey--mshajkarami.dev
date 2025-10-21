@@ -1,5 +1,6 @@
 package dev.mshajkarami.ds.jv.dsajourney.ArraysandVectors;
 
+import java.util.HashSet;
 import java.util.Vector;
 
 public class Pairs {
@@ -15,12 +16,14 @@ public class Pairs {
         // Second method | O(n(lgn))
 
         // Third method | O(n)
-        Vector<Integer> helper = new Vector<>();
+        HashSet<Integer> helper = new HashSet<>();
         helper.add(arr[0]);
-        for (int j : arr) {
-            int Supplement = sum - j;
+        for (int item : arr) {
+            int Supplement = sum - item;
             if (helper.contains(Supplement)) {
-                System.out.println(j + " " + Supplement);
+                System.out.println(item + " " + Supplement);
+            }else {
+                System.out.println(" ");
             }
         }
     }
