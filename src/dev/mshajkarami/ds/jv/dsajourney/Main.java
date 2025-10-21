@@ -1,7 +1,9 @@
 package dev.mshajkarami.ds.jv.dsajourney;
 
 import dev.mshajkarami.ds.jv.dsajourney.ArraysandVectors.FizzBuzz;
+import dev.mshajkarami.ds.jv.dsajourney.ArraysandVectors.Pairs;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -11,8 +13,18 @@ public class Main {
         Scanner input = new Scanner(System.in);
 //        VectorSTL.demoVector();
 //        Vector2D.demoVector();
-        System.out.println("Enter the n for fizzbuzz game: ");
+//        System.out.println("Enter the n for fizzbuzz game: ");
+//        int n = input.nextInt();
+//        FizzBuzz.run(n);
+        System.out.println("Enter the array size of the array: ");
         int n = input.nextInt();
-        FizzBuzz.run(n);
+        System.out.println("Enter the array for pairs: ");
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = input.nextInt();
+        }
+        System.out.println("Enter a number for sum: ");
+        int s = input.nextInt();
+        Pairs.run(arr,s);
     }
 }
